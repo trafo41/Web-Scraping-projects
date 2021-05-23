@@ -1,12 +1,12 @@
 import requests
 from bs4 import BeautifulSoup as soup
-import smtplib
+# import smtplib                                                    # <- uncoment it while running this file
 
 url = "https://www.amazon.in/OnePlus-Nord-Marble-256GB-Storage/dp/B0869855B8/ref=sr_1_1?dchild=1&qid=1621789913&refinements=p_89%3AOnePlus&s=electronics&sr=1-1"
-headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 Edg/90.0.818.66"}
+headers = {"User-Agent": "Enter your user agent id here"}           # you can find your user agent id by simply searching - "my user agent id" it on your browser
 
 price_value =  25999
-email_address = "jagveeryadav041@gmail.com"
+email_address = "example@gmail.com"                   # enter your mail id here and give access for less secure apps in your google account for a while
 password = "test@pswd"                                # enter your account password here
 receiver_mail = "jagveeryadav1299@gmail.com"
 
